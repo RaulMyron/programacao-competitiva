@@ -18,8 +18,6 @@ ctrl + shift + a
 #insta comment onto vscode
 ```
 
-### Defining things into cppp
-
 #### Defining ll as long long
 ```cpp
 /* begining of the code try not to use int */
@@ -27,36 +25,15 @@ typedef long long ll;
 #define ll long long;
 ```
 
-<!-- ## Be aware of overflows  ## -->
-
-#### Casting (redefining) variables
+basic normal cpp class
 ```cpp
-/* casting */
-a = (ll) a * (ll) b
-```
+#include <bits/stdc++.h>
+using namespace std;
 
-#### Is this a crime?
-```cpp
-#define int long long
-```
+/* basic structure  */
 
-#### Pre and Post incrementation
-```cpp
---a; /* at first decreases the executes the rest of the code */
-a--: /* at first executes the code then decreases the value inside it */
-```
-
-#### cin and cout vs scanf and printf
-```cpp
-
-    #include <bits/stdc++.h>
-
-    /* #define desync ios::sync_with_stdio(false); cin.tie(0); cout.tie(0)  */
-
-    using namespace std; /* let std influentiate all code */
-
-    cin >> a;
-    cout << a << endl;
-    cout << a << "\n";
-
+int main()
+{
+    return 0;
+}
 ```
