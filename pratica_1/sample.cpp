@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-#define float long double 
+
+//#define float long double 
 
 int main(){
 
