@@ -12,6 +12,9 @@ int main(){
 
     int n, m;
     int retangulo_w, retangulo_h;
+
+    int max
+
     retangulo_w = 1;
     retangulo_h = 1;
 
@@ -32,7 +35,7 @@ int main(){
         {
             cout << matriz[i][j] << endl;
             if (matriz[i][j] == 1){
-                retangulo_w = min(retangulo_w, j+1); //max entre esse e o proximo
+                retangulo_w = min(retangulo_w, j+1); 
                 retangulo_h = min(retangulo_h, i+1);
             }
         }
