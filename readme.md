@@ -9,7 +9,7 @@ PROGRAMAÇÃO COMPETITIVA: CIC0169
 ### Comando básico para execução de um programa em Cpp no Ubuntu
 
 ```bash
-g++ file.cpp -std=c++17 -o nome_do_bin
+g++ file.cpp -std=c++17 -o output/nome_do_bin
 ```
 ### Just to be aware, how to comment into vscode
 

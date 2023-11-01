@@ -28,17 +28,14 @@ last = 0
 
 feita = []
 
-for i in range(len(vector)):
-    if vector[i] == i+1:
-        last = vector[i]
-        dias+=1
+""" print(vector)
+print(vector_1)
+ """
+contador_dia = 1
 
 for i in range(len(vector_1)):
-    if vector_1[i] == i+1:
-        if (vector_1[i] not in feita):  
-            feita.append(vector_1[i])
-            last = vector_1[i]
-            dias_1 +=1
+    if vector_1[i] >= contador_dia:
+        contador_dia+=1
 
-print(max(dias, dias_1))
+print((contador_dia-1))
 
