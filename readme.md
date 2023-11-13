@@ -23,6 +23,7 @@ ctrl + shift + a
 /* begining of the code try not to use int */
 typedef long long ll;
 #define ll long long;
+long long int numero;
 ```
 
 basic normal cpp class

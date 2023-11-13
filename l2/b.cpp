@@ -25,14 +25,15 @@ int main()
     }
 
     int contador, tempo;
-    contador = 1;
+    contador = f;
     tempo = 0;
     float resto;
     
     while (!carros.empty())
     {
         //cout << carros.front() << endl;
-        //resto = contador % f;
+
+        resto = contador % f;
         //cout << "contador " << contador << " f " << f << " resto " << resto << endl;
 
         if (contador % f == 0)
@@ -43,9 +44,9 @@ int main()
                 carros.pop();
                 tempo += 5;
             }
-            else if (carros.front() > p)
+            else
             {
-                //cout << "tempo " << "+10" << endl;
+                //cout << "tempo " << "+10" << "carro vai para " << carros.front()-2 << endl;
                 carros.push(carros.front()-2);
                 tempo += 10;
                 carros.pop();
