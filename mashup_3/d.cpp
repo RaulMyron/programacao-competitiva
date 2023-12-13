@@ -1,23 +1,35 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
-//#define float long double 
+int main()
+{
 
-int main(){
+    int i, j, k, n, m, x;
+    int qtd=0;
 
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
-
-    int n;
     cin >> n;
+    priority_queue<int> pq;
 
-    while (n--)
+    cin>>x;
+    for(i=2;i<=n;i++)
     {
-        /* code */
+        cin>>m;
+        pq.push(m);
     }
-       
+
+    while(x<=pq.top())
+    {
+        m=pq.top();
+        pq.pop();
+
+        x++;
+        pq.push(m-1);
+
+        qtd++;
+
+    }
+
+    cout  <<  qtd << "\n";
 
     return 0;
 }
