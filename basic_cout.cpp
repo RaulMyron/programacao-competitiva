@@ -5,6 +5,8 @@ using namespace std;
 
 //typedef long long ll;
 //#define float long double 
+//using LL = long long int;
+
 
 int main(){
 
