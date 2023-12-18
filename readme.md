@@ -2,7 +2,7 @@
 
 Repositório dedicado a matéria de programação competitiva ministrada pelo professor Vinicius na Universidade de Brasília
 
-PROGRAMAÇÃO COMPETITIVA: CIC0169
+PROGRAMAÇÃO COMPETITIVA: [CIC0169](https://github.com/viniciusrpb/cic0169_programacao_competitiva) <- referencia
 
 ##  Running
 
